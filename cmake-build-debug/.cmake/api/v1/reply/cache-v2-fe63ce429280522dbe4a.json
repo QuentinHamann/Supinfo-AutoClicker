@@ -55,7 +55,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "c:/Users/chham/Desktop/supinfo/cours/B.ENG.2/2C++/Final/cmake-build-debug"
+			"value" : "c:/Users/chham/Desktop/supinfo/cours/B.ENG.2/2C++/Supinfo-AutoClicker/cmake-build-debug"
 		},
 		{
 			"name" : "CMAKE_CACHE_MAJOR_VERSION",
@@ -623,7 +623,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "C:/Users/chham/Desktop/supinfo/cours/B.ENG.2/2C++/Final"
+			"value" : "C:/Users/chham/Desktop/supinfo/cours/B.ENG.2/2C++/Supinfo-AutoClicker"
 		},
 		{
 			"name" : "CMAKE_INSTALL_PREFIX",
@@ -1239,7 +1239,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/Users/chham/Desktop/supinfo/cours/B.ENG.2/2C++/Final/cmake-build-debug"
+			"value" : "C:/Users/chham/Desktop/supinfo/cours/B.ENG.2/2C++/Supinfo-AutoClicker/cmake-build-debug"
 		},
 		{
 			"name" : "Final_IS_TOP_LEVEL",
@@ -1263,7 +1263,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/Users/chham/Desktop/supinfo/cours/B.ENG.2/2C++/Final"
+			"value" : "C:/Users/chham/Desktop/supinfo/cours/B.ENG.2/2C++/Supinfo-AutoClicker"
 		}
 	],
 	"kind" : "cache",

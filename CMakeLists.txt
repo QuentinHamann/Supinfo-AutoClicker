@@ -7,4 +7,5 @@ include_directories(.)
 
 add_executable(Final
         AutoClicker.cpp
-        AutoClicker.h)
+        AutoClicker.h
+        main.cpp)

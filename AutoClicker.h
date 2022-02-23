@@ -4,6 +4,11 @@
 
 class AutoClicker {
 
+public:
+    int draw();
+    int getTrajectory();
+    int click();
+    int Set();
 };
 
 

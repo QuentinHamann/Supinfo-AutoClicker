@@ -1,4 +1,4 @@
-C:\Users\chham\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\213.6777.58\bin\cmake\win\bin\cmake.exe -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=C:/Users/chham/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/213.6777.58/bin/ninja/win/ninja.exe -G Ninja C:\Users\chham\Desktop\supinfo\cours\B.ENG.2\2C++\Final
+C:\Users\chham\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\213.6777.58\bin\cmake\win\bin\cmake.exe -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=C:/Users/chham/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/213.6777.58/bin/ninja/win/ninja.exe -G Ninja C:\Users\chham\Desktop\supinfo\cours\B.ENG.2\2C++\Supinfo-AutoClicker
 -- Configuring done
 -- Generating done
--- Build files have been written to: C:/Users/chham/Desktop/supinfo/cours/B.ENG.2/2C++/Final/cmake-build-debug
+-- Build files have been written to: C:/Users/chham/Desktop/supinfo/cours/B.ENG.2/2C++/Supinfo-AutoClicker/cmake-build-debug

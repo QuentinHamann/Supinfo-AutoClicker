@@ -39,7 +39,7 @@ include CMakeFiles/rules.ninja
 #############################################
 # Logical path to working directory; prefix for absolute paths.
 
-cmake_ninja_workdir = C$:/Users/chham/Desktop/supinfo/cours/B.ENG.2/2C++/Final/cmake-build-debug/
+cmake_ninja_workdir = C$:/Users/chham/Desktop/supinfo/cours/B.ENG.2/2C++/Supinfo-AutoClicker/cmake-build-debug/
 # =============================================================================
 # Object build statements for EXECUTABLE target Final
 
@@ -49,10 +49,17 @@ cmake_ninja_workdir = C$:/Users/chham/Desktop/supinfo/cours/B.ENG.2/2C++/Final/c
 
 build cmake_object_order_depends_target_Final: phony || CMakeFiles/Final.dir
 
-build CMakeFiles/Final.dir/AutoClicker.cpp.obj: CXX_COMPILER__Final_Debug C$:/Users/chham/Desktop/supinfo/cours/B.ENG.2/2C++/Final/AutoClicker.cpp || cmake_object_order_depends_target_Final
+build CMakeFiles/Final.dir/AutoClicker.cpp.obj: CXX_COMPILER__Final_Debug C$:/Users/chham/Desktop/supinfo/cours/B.ENG.2/2C++/Supinfo-AutoClicker/AutoClicker.cpp || cmake_object_order_depends_target_Final
   DEP_FILE = CMakeFiles\Final.dir\AutoClicker.cpp.obj.d
   FLAGS = -g -std=gnu++14
-  INCLUDES = -IC:/Users/chham/Desktop/supinfo/cours/B.ENG.2/2C++/Final/.
+  INCLUDES = -IC:/Users/chham/Desktop/supinfo/cours/B.ENG.2/2C++/Supinfo-AutoClicker/.
+  OBJECT_DIR = CMakeFiles\Final.dir
+  OBJECT_FILE_DIR = CMakeFiles\Final.dir
+
+build CMakeFiles/Final.dir/main.cpp.obj: CXX_COMPILER__Final_Debug C$:/Users/chham/Desktop/supinfo/cours/B.ENG.2/2C++/Supinfo-AutoClicker/main.cpp || cmake_object_order_depends_target_Final
+  DEP_FILE = CMakeFiles\Final.dir\main.cpp.obj.d
+  FLAGS = -g -std=gnu++14
+  INCLUDES = -IC:/Users/chham/Desktop/supinfo/cours/B.ENG.2/2C++/Supinfo-AutoClicker/.
   OBJECT_DIR = CMakeFiles\Final.dir
   OBJECT_FILE_DIR = CMakeFiles\Final.dir
 
@@ -64,7 +71,7 @@ build CMakeFiles/Final.dir/AutoClicker.cpp.obj: CXX_COMPILER__Final_Debug C$:/Us
 #############################################
 # Link the executable Final.exe
 
-build Final.exe: CXX_EXECUTABLE_LINKER__Final_Debug CMakeFiles/Final.dir/AutoClicker.cpp.obj
+build Final.exe: CXX_EXECUTABLE_LINKER__Final_Debug CMakeFiles/Final.dir/AutoClicker.cpp.obj CMakeFiles/Final.dir/main.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\Final.dir
@@ -79,7 +86,7 @@ build Final.exe: CXX_EXECUTABLE_LINKER__Final_Debug CMakeFiles/Final.dir/AutoCli
 # Utility command for edit_cache
 
 build CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D C:\Users\chham\Desktop\supinfo\cours\B.ENG.2\2C++\Final\cmake-build-debug && C:\Users\chham\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\213.6777.58\bin\cmake\win\bin\cmake.exe -E echo "No interactive CMake dialog available.""
+  COMMAND = cmd.exe /C "cd /D C:\Users\chham\Desktop\supinfo\cours\B.ENG.2\2C++\Supinfo-AutoClicker\cmake-build-debug && C:\Users\chham\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\213.6777.58\bin\cmake\win\bin\cmake.exe -E echo "No interactive CMake dialog available.""
   DESC = No interactive CMake dialog available...
   restat = 1
 
@@ -90,7 +97,7 @@ build edit_cache: phony CMakeFiles/edit_cache.util
 # Utility command for rebuild_cache
 
 build CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D C:\Users\chham\Desktop\supinfo\cours\B.ENG.2\2C++\Final\cmake-build-debug && C:\Users\chham\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\213.6777.58\bin\cmake\win\bin\cmake.exe --regenerate-during-build -SC:\Users\chham\Desktop\supinfo\cours\B.ENG.2\2C++\Final -BC:\Users\chham\Desktop\supinfo\cours\B.ENG.2\2C++\Final\cmake-build-debug"
+  COMMAND = cmd.exe /C "cd /D C:\Users\chham\Desktop\supinfo\cours\B.ENG.2\2C++\Supinfo-AutoClicker\cmake-build-debug && C:\Users\chham\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\213.6777.58\bin\cmake\win\bin\cmake.exe --regenerate-during-build -SC:\Users\chham\Desktop\supinfo\cours\B.ENG.2\2C++\Supinfo-AutoClicker -BC:\Users\chham\Desktop\supinfo\cours\B.ENG.2\2C++\Supinfo-AutoClicker\cmake-build-debug"
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
@@ -108,7 +115,7 @@ build Final: phony Final.exe
 # =============================================================================
 
 #############################################
-# Folder: C:/Users/chham/Desktop/supinfo/cours/B.ENG.2/2C++/Final/cmake-build-debug
+# Folder: C:/Users/chham/Desktop/supinfo/cours/B.ENG.2/2C++/Supinfo-AutoClicker/cmake-build-debug
 
 build all: phony Final.exe
 
